@@ -1,0 +1,7 @@
+[33mWORKING: Connected to database shelter_occupancy.db.[0m
+[33mWORKING: Retreiving data from toronto.ca[0m
+[32mSUCCESS: Data retreived![0m
+[33mWORKING: Parsing and cleaning new data[0m
+[33mWORKING: Storing data in shelter_occupancy.db[0m
+[32mSUCCESS: Finished parsing and storing data in 7.997018814086914 seconds.[0m
+('temperature',)
