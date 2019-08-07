@@ -43,7 +43,7 @@ class TwitterBot():
         for each in data:
             available += each['available']
             occupants += each['occupants']
-        status = f"TEST THREAD: Yesterday ({yesterday}) there were a total of {shelters} shelters with {available} beds available in @Toronto. See the thread for more details on each shelter. #onpoli #endhomelessness #topoli"
+        status = f"Yesterday ({yesterday}) there were a total of {shelters} shelters with {available} beds available in @Toronto. See the thread for more details on each shelter. Data via @Open_TO #onpoli #cdnpoli"
         self._tweets.append(status)
 
     def thread_add_shelter(self, data):
